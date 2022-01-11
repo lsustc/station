@@ -1,0 +1,2 @@
+export EGG_SERVER_ENV=test
+npm run start > /tmp/init.log &
