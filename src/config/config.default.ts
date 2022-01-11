@@ -32,7 +32,7 @@ export default (appInfo: EggAppInfo) => {
   // };
   config.mongoose = {
     client: {
-      uri: process.env.NODE_ENV === 'local' ? 'mongodb://118.25.72.109:27017/ls' : 'mongodb://10.204.0.23:32465/shenwei',
+      uri: 'mongodb://118.25.72.109:27017/ls',
       options: {
         useNewUrlParser: true,
         useUnifiedTopology: true,

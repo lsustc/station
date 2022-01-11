@@ -7,3 +7,153 @@
 2022-01-11 15:20:09,803 INFO 6580 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
 2022-01-11 15:20:09,807 INFO 6580 [egg:core] dump config after load, 96ms
 2022-01-11 15:20:10,101 INFO 6580 [egg:core] dump config after ready, 17ms
+2022-01-11 16:42:01,862 INFO 4520 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 16:42:01,864 INFO 4520 [egg:core] dump config after load, 126ms
+2022-01-11 16:42:02,479 INFO 4520 [egg:core] dump config after ready, 60ms
+2022-01-11 19:21:31,756 INFO 10216 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 19:21:31,759 INFO 10216 [egg:core] dump config after load, 41ms
+2022-01-11 19:21:31,997 INFO 10216 [egg:core] dump config after ready, 20ms
+2022-01-11 19:22:02,299 ERROR 10216 MongooseServerSelectionError: connection timed out
+    at NativeConnection.Connection.openUri (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:800:32)
+    at Mongoose.createConnection (D:\myProj\station-git\station\node_modules\mongoose\lib\index.js:284:17)
+    at MongooseConnectionServiceFactory.createClient (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:21:43)
+    at MongooseConnectionServiceFactory.createInstance (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:34:35)
+    at MongooseConnectionServiceFactory.initClients (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:18:24)
+    at MongooseConnectionServiceFactory.init (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:18:20)
+    at ObjectCreator.doInitAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\definitions\objectCreator.js:110:30)
+    at ManagedResolverFactory.createAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:460:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map { '10.204.0.23:32465' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+2022-01-11 19:24:55,124 INFO 7000 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 19:24:55,127 INFO 7000 [egg:core] dump config after load, 34ms
+2022-01-11 19:24:55,367 INFO 7000 [egg:core] dump config after ready, 31ms
+2022-01-11 19:30:02,553 INFO 7952 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 19:30:02,556 INFO 7952 [egg:core] dump config after load, 38ms
+2022-01-11 19:30:02,830 INFO 7952 [egg:core] dump config after ready, 41ms
+2022-01-11 19:30:33,114 ERROR 7952 MongooseServerSelectionError: connection timed out
+    at NativeConnection.Connection.openUri (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:800:32)
+    at Mongoose.createConnection (D:\myProj\station-git\station\node_modules\mongoose\lib\index.js:284:17)
+    at MongooseConnectionServiceFactory.createClient (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:21:43)
+    at MongooseConnectionServiceFactory.createInstance (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:34:35)
+    at MongooseConnectionServiceFactory.initClients (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:18:24)
+    at MongooseConnectionServiceFactory.init (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:18:20)
+    at ObjectCreator.doInitAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\definitions\objectCreator.js:110:30)
+    at ManagedResolverFactory.createAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:460:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map { '10.204.0.23:32465' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+2022-01-11 19:31:19,777 INFO 6712 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 19:31:19,779 INFO 6712 [egg:core] dump config after load, 37ms
+2022-01-11 19:31:20,045 INFO 6712 [egg:core] dump config after ready, 34ms
+2022-01-11 19:32:21,758 INFO 8652 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 19:32:21,761 INFO 8652 [egg:core] dump config after load, 42ms
+2022-01-11 19:32:22,038 INFO 8652 [egg:core] dump config after ready, 33ms
+2022-01-11 19:32:22,391 ERROR 8652 MongoError: database names cannot contain the character '/'
+    at Function.create (D:\myProj\station-git\station\node_modules\mongodb\lib\core\error.js:57:12)
+    at validateDatabaseName (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\db_ops.js:344:24)
+    at new Db (D:\myProj\station-git\station\node_modules\mongodb\lib\db.js:190:3)
+    at MongoClient.db (D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:318:14)
+    at _setClient (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:831:58)
+    at D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:794:7
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\utils.js:674:5
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:225:7
+    at connectCallback (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:602:5
+    at Object.connectHandler [as callback] (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:297:43)
+    at processWaitQueue (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:1047:21)
+    at NativeTopology.serverUpdateHandler (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:567:7)
+    at Server.emit (events.js:315:20)
+    at Monitor.<anonymous> (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\server.js:151:12)
+    at Monitor.emit (events.js:327:22) {
+  driver: true
+}
+2022-01-11 19:33:55,415 ERROR 8652 MongoError: database names cannot contain the character '/'
+    at Function.create (D:\myProj\station-git\station\node_modules\mongodb\lib\core\error.js:57:12)
+    at validateDatabaseName (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\db_ops.js:344:24)
+    at new Db (D:\myProj\station-git\station\node_modules\mongodb\lib\db.js:190:3)
+    at MongoClient.db (D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:318:14)
+    at _setClient (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:831:58)
+    at D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:794:7
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\utils.js:674:5
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:225:7
+    at connectCallback (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:602:5
+    at Object.connectHandler [as callback] (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:297:43)
+    at processWaitQueue (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:1047:21)
+    at NativeTopology.serverUpdateHandler (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:567:7)
+    at Server.emit (events.js:315:20)
+    at Monitor.<anonymous> (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\server.js:151:12)
+    at Monitor.emit (events.js:327:22) {
+  driver: true
+}
+2022-01-11 19:34:03,321 INFO 2888 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 19:34:03,324 INFO 2888 [egg:core] dump config after load, 38ms
+2022-01-11 19:34:03,559 INFO 2888 [egg:core] dump config after ready, 16ms
+2022-01-11 19:34:03,939 ERROR 2888 MongoError: database names cannot contain the character '/'
+    at Function.create (D:\myProj\station-git\station\node_modules\mongodb\lib\core\error.js:57:12)
+    at validateDatabaseName (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\db_ops.js:344:24)
+    at new Db (D:\myProj\station-git\station\node_modules\mongodb\lib\db.js:190:3)
+    at MongoClient.db (D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:318:14)
+    at _setClient (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:831:58)
+    at D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:794:7
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\utils.js:674:5
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:225:7
+    at connectCallback (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:602:5
+    at Object.connectHandler [as callback] (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:297:43)
+    at processWaitQueue (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:1047:21)
+    at NativeTopology.serverUpdateHandler (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:567:7)
+    at Server.emit (events.js:315:20)
+    at Monitor.<anonymous> (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\server.js:151:12)
+    at Monitor.emit (events.js:327:22) {
+  driver: true
+}
+2022-01-11 19:34:07,734 ERROR 2888 MongoError: database names cannot contain the character '/'
+    at Function.create (D:\myProj\station-git\station\node_modules\mongodb\lib\core\error.js:57:12)
+    at validateDatabaseName (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\db_ops.js:344:24)
+    at new Db (D:\myProj\station-git\station\node_modules\mongodb\lib\db.js:190:3)
+    at MongoClient.db (D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:318:14)
+    at _setClient (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:831:58)
+    at D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:794:7
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\utils.js:674:5
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\mongo_client.js:225:7
+    at connectCallback (D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\myProj\station-git\station\node_modules\mongodb\lib\operations\connect.js:602:5
+    at Object.connectHandler [as callback] (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:297:43)
+    at processWaitQueue (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:1047:21)
+    at NativeTopology.serverUpdateHandler (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\topology.js:567:7)
+    at Server.emit (events.js:315:20)
+    at Monitor.<anonymous> (D:\myProj\station-git\station\node_modules\mongodb\lib\core\sdam\server.js:151:12)
+    at Monitor.emit (events.js:327:22) {
+  driver: true
+}
+2022-01-11 19:34:34,531 INFO 6532 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station-git\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 19:34:34,534 INFO 6532 [egg:core] dump config after load, 33ms
+2022-01-11 19:34:34,836 INFO 6532 [egg:core] dump config after ready, 36ms

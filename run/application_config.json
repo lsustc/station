@@ -101,27 +101,25 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\myProj\\station\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\myProj\\station-git\\station\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\myProj\\station\\node_modules\\egg-session\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-security\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-view\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\midway-schedule\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-cors\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg-mock\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\@midwayjs\\mock\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\egg\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\dist\\config\\locales",
-        "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\locales",
-        "D:\\myProj\\station\\src\\config\\locales"
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-session\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-security\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-view\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\midway-schedule\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg-cors\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\@midwayjs\\web\\dist\\config\\locales",
+        "D:\\myProj\\station-git\\station\\node_modules\\@midwayjs\\web\\config\\locales",
+        "D:\\myProj\\station-git\\station\\dist\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -157,7 +155,7 @@
       }
     },
     "view": {
-      "root": "D:\\myProj\\station\\src\\app\\view",
+      "root": "D:\\myProj\\station-git\\station\\dist\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -184,11 +182,11 @@
         "@midwayjs/mongoose": "^2.14.2",
         "@midwayjs/typegoose": "^2.14.2",
         "@midwayjs/web": "^2.3.0",
-        "@typegoose/typegoose": "^7.5.0",
+        "@typegoose/typegoose": "7.5.0",
         "egg": "^2.0.0",
         "egg-cors": "^2.2.3",
         "egg-scripts": "^2.10.0",
-        "mongoose": "^5.10.9"
+        "mongoose": "5.10.9"
       },
       "devDependencies": {
         "@midwayjs/cli": "^1.0.0",
@@ -235,9 +233,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "D:\\myProj\\station\\src",
+    "baseDir": "D:\\myProj\\station-git\\station\\dist",
     "HOME": "C:\\Users\\viruser.v-desktop",
-    "rundir": "D:\\myProj\\station\\run",
+    "rundir": "D:\\myProj\\station-git\\station\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -269,7 +267,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\myProj\\station\\logs\\my-midway-project",
+      "dir": "D:\\myProj\\station-git\\station\\logs\\my-midway-project",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -320,7 +318,6 @@
       "bodyParser",
       "overrideMethod",
       "session",
-      "clusterAppMock",
       "securities",
       "i18n"
     ],
@@ -342,11 +339,11 @@
     "alinode": {
       "logdir": "C:\\Users\\VIRUSE\\x7e1.V-D\\AppData\\Local\\Temp",
       "error_log": [
-        "D:\\myProj\\station\\logs\\my-midway-project\\common-error.log",
-        "D:\\myProj\\station\\logs\\stderr.log"
+        "D:\\myProj\\station-git\\station\\logs\\my-midway-project\\common-error.log",
+        "D:\\myProj\\station-git\\station\\logs\\stderr.log"
       ],
       "packages": [
-        "D:\\myProj\\station\\package.json"
+        "D:\\myProj\\station-git\\station\\package.json"
       ]
     },
     "coreMiddlewares": "~config~coreMiddleware",
@@ -375,8 +372,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-onerror",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -386,8 +383,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-session",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -397,8 +394,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-i18n",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -408,8 +405,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-watcher",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\@midwayjs\\web\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -421,8 +418,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-multipart",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -434,8 +431,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-security",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-security",
       "version": "2.9.0"
     },
     "development": {
@@ -449,8 +446,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-development",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\@midwayjs\\web\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -462,8 +459,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\src\\config\\plugin.ts",
-      "path": "D:\\myProj\\station\\node_modules\\egg-logrotator",
+      "from": "D:\\myProj\\station-git\\station\\dist\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -473,8 +470,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-schedule",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -484,8 +481,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\src\\config\\plugin.ts",
-      "path": "D:\\myProj\\station\\node_modules\\egg-static",
+      "from": "D:\\myProj\\station-git\\station\\dist\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -497,8 +494,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-jsonp",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -508,8 +505,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\egg-view",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-view",
       "version": "2.1.3"
     },
     "schedulePlus": {
@@ -521,8 +518,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\plugin.js",
-      "path": "D:\\myProj\\station\\node_modules\\midway-schedule",
+      "from": "D:\\myProj\\station-git\\station\\node_modules\\@midwayjs\\web\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\midway-schedule",
       "version": "2.14.0"
     },
     "cors": {
@@ -532,29 +529,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\myProj\\station\\src\\config\\plugin.ts",
-      "path": "D:\\myProj\\station\\node_modules\\egg-cors",
+      "from": "D:\\myProj\\station-git\\station\\dist\\config\\plugin.js",
+      "path": "D:\\myProj\\station-git\\station\\node_modules\\egg-cors",
       "version": "2.2.3"
-    },
-    "egg-mock": {
-      "enable": true,
-      "package": "egg-mock",
-      "name": "egg-mock",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "path": "D:\\myProj\\station\\node_modules\\egg-mock",
-      "version": "3.26.0"
-    },
-    "midway-mock": {
-      "enable": true,
-      "package": "@midwayjs/mock",
-      "name": "midway-mock",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "path": "D:\\myProj\\station\\node_modules\\@midwayjs\\mock",
-      "version": "2.14.0"
     }
   }
 }

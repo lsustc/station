@@ -10,11 +10,11 @@
     "@midwayjs/mongoose": "^2.14.2",
     "@midwayjs/typegoose": "^2.14.2",
     "@midwayjs/web": "^2.3.0",
-    "@typegoose/typegoose": "^7.5.0",
+    "@typegoose/typegoose": "7.5.0",
     "egg": "^2.0.0",
     "egg-cors": "^2.2.3",
     "egg-scripts": "^2.10.0",
-    "mongoose": "^5.10.9"
+    "mongoose": "5.10.9"
   },
   "devDependencies": {
     "@midwayjs/cli": "^1.0.0",

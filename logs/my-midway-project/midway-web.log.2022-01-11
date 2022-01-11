@@ -48,3 +48,53 @@
     commonWireVersion: null
   }
 }
+2022-01-11 19:22:02,260 ERROR 10216 [-/127.0.0.1/-/0ms GET /] MongooseServerSelectionError: connection timed out
+    at NativeConnection.Connection.openUri (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:800:32)
+    at Mongoose.createConnection (D:\myProj\station-git\station\node_modules\mongoose\lib\index.js:284:17)
+    at MongooseConnectionServiceFactory.createClient (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:21:43)
+    at MongooseConnectionServiceFactory.createInstance (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:34:35)
+    at MongooseConnectionServiceFactory.initClients (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:18:24)
+    at MongooseConnectionServiceFactory.init (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:18:20)
+    at ObjectCreator.doInitAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\definitions\objectCreator.js:110:30)
+    at ManagedResolverFactory.createAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:460:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map { '10.204.0.23:32465' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+2022-01-11 19:30:33,059 ERROR 7952 [-/127.0.0.1/-/1ms GET /] MongooseServerSelectionError: connection timed out
+    at NativeConnection.Connection.openUri (D:\myProj\station-git\station\node_modules\mongoose\lib\connection.js:800:32)
+    at Mongoose.createConnection (D:\myProj\station-git\station\node_modules\mongoose\lib\index.js:284:17)
+    at MongooseConnectionServiceFactory.createClient (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:21:43)
+    at MongooseConnectionServiceFactory.createInstance (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:34:35)
+    at MongooseConnectionServiceFactory.initClients (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\util\serviceFactory.js:18:24)
+    at MongooseConnectionServiceFactory.init (D:\myProj\station-git\station\node_modules\@midwayjs\mongoose\dist\manager.js:18:20)
+    at ObjectCreator.doInitAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\definitions\objectCreator.js:110:30)
+    at ManagedResolverFactory.createAsync (D:\myProj\station-git\station\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:460:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map { '10.204.0.23:32465' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}

@@ -2,3 +2,13 @@
 2022-01-11 14:43:23,127 INFO 5008 [egg-schedule]: register schedule D:\myProj\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2022-01-11 15:20:10,352 INFO 6580 [egg-schedule]: register schedule D:\myProj\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2022-01-11 15:20:10,816 INFO 6580 [Timer] D:\myProj\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47389223ms at 2022-01-12 04:30:00.039
+2022-01-11 16:42:02,758 INFO 4520 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 16:42:03,036 INFO 4520 [Timer] D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42476970ms at 2022-01-12 04:30:00.006
+2022-01-11 19:21:32,152 INFO 10216 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 19:24:55,506 INFO 7000 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 19:30:02,963 INFO 7952 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 19:31:20,205 INFO 6712 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 19:32:22,242 INFO 8652 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 19:34:03,724 INFO 2888 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 19:34:34,981 INFO 6532 [egg-schedule]: register schedule D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-01-11 19:34:35,174 INFO 6532 [Timer] D:\myProj\station-git\station\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 32124830ms at 2022-01-12 04:30:00.004
