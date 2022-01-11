@@ -1,0 +1,19 @@
+2022-01-11 14:31:16,592 INFO 7672 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-11 14:31:16,592 INFO 7672 [egg:core] dump config after load, 18ms
+2022-01-11 14:31:16,775 INFO 7672 [egg-multipart] stream mode enable
+2022-01-11 14:31:46,988 INFO 7672 [egg:core] dump config after ready, 49ms
+2022-01-11 14:43:22,973 INFO 5008 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-11 14:43:22,973 INFO 5008 [egg:core] dump config after load, 15ms
+2022-01-11 14:43:23,128 INFO 5008 [egg-multipart] stream mode enable
+2022-01-11 14:43:53,468 INFO 5008 [egg:core] dump config after ready, 10ms
+2022-01-11 15:20:10,164 INFO 6580 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-11 15:20:10,165 INFO 6580 [egg:core] dump config after load, 27ms
+2022-01-11 15:20:10,355 INFO 6580 [egg-multipart] stream mode enable
+2022-01-11 15:20:10,742 INFO 6580 [egg-security] use methodnoallow middleware
+2022-01-11 15:20:10,743 INFO 6580 [egg-security] use noopen middleware
+2022-01-11 15:20:10,745 INFO 6580 [egg-security] use nosniff middleware
+2022-01-11 15:20:10,746 INFO 6580 [egg-security] use xssProtection middleware
+2022-01-11 15:20:10,748 INFO 6580 [egg-security] use xframe middleware
+2022-01-11 15:20:10,749 INFO 6580 [egg-security] use dta middleware
+2022-01-11 15:20:10,750 INFO 6580 [egg-security] compose 6 middlewares into one security middleware
+2022-01-11 15:20:10,771 INFO 6580 [egg:core] dump config after ready, 10ms

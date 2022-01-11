@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Process Start",
+    "start": 1641885597669,
+    "end": 1641885609580,
+    "duration": 11911,
+    "pid": 6580,
+    "index": 0
+  },
+  {
+    "name": "Application Start",
+    "start": 1641885609583,
+    "end": 1641885610084,
+    "duration": 501,
+    "pid": 6580,
+    "index": 1
+  },
+  {
+    "name": "Load Plugin",
+    "start": 1641885609601,
+    "end": 1641885609655,
+    "duration": 54,
+    "pid": 6580,
+    "index": 2
+  },
+  {
+    "name": "Load Config",
+    "start": 1641885609655,
+    "end": 1641885609698,
+    "duration": 43,
+    "pid": 6580,
+    "index": 3
+  },
+  {
+    "name": "Require(0) config/config.default.ts",
+    "start": 1641885609656,
+    "end": 1641885609656,
+    "duration": 0,
+    "pid": 6580,
+    "index": 4
+  },
+  {
+    "name": "Require(1) config/config.local.ts",
+    "start": 1641885609657,
+    "end": 1641885609658,
+    "duration": 1,
+    "pid": 6580,
+    "index": 5
+  },
+  {
+    "name": "Require(2) D:/myProj/station/node_modules/egg-session/config/config.default.js",
+    "start": 1641885609658,
+    "end": 1641885609659,
+    "duration": 1,
+    "pid": 6580,
+    "index": 6
+  },
+  {
+    "name": "Require(3) D:/myProj/station/node_modules/egg-security/config/config.default.js",
+    "start": 1641885609660,
+    "end": 1641885609661,
+    "duration": 1,
+    "pid": 6580,
+    "index": 7
+  },
+  {
+    "name": "Require(4) D:/myProj/station/node_modules/egg-jsonp/config/config.default.js",
+    "start": 1641885609663,
+    "end": 1641885609663,
+    "duration": 0,
+    "pid": 6580,
+    "index": 8
+  },
+  {
+    "name": "Require(5) D:/myProj/station/node_modules/egg-onerror/config/config.default.js",
+    "start": 1641885609664,
+    "end": 1641885609664,
+    "duration": 0,
+    "pid": 6580,
+    "index": 9
+  },
+  {
+    "name": "Require(6) D:/myProj/station/node_modules/egg-i18n/config/config.default.js",
+    "start": 1641885609665,
+    "end": 1641885609666,
+    "duration": 1,
+    "pid": 6580,
+    "index": 10
+  },
+  {
+    "name": "Require(7) D:/myProj/station/node_modules/egg-schedule/config/config.default.js",
+    "start": 1641885609667,
+    "end": 1641885609667,
+    "duration": 0,
+    "pid": 6580,
+    "index": 11
+  },
+  {
+    "name": "Require(8) D:/myProj/station/node_modules/egg-multipart/config/config.default.js",
+    "start": 1641885609668,
+    "end": 1641885609669,
+    "duration": 1,
+    "pid": 6580,
+    "index": 12
+  },
+  {
+    "name": "Require(9) D:/myProj/station/node_modules/egg-view/config/config.default.js",
+    "start": 1641885609670,
+    "end": 1641885609670,
+    "duration": 0,
+    "pid": 6580,
+    "index": 13
+  },
+  {
+    "name": "Require(10) D:/myProj/station/node_modules/egg-cors/config/config.default.js",
+    "start": 1641885609671,
+    "end": 1641885609672,
+    "duration": 1,
+    "pid": 6580,
+    "index": 14
+  },
+  {
+    "name": "Require(11) D:/myProj/station/node_modules/egg/config/config.default.js",
+    "start": 1641885609673,
+    "end": 1641885609674,
+    "duration": 1,
+    "pid": 6580,
+    "index": 15
+  },
+  {
+    "name": "Require(12) D:/myProj/station/node_modules/@midwayjs/web/config/config.default.js",
+    "start": 1641885609678,
+    "end": 1641885609683,
+    "duration": 5,
+    "pid": 6580,
+    "index": 16
+  },
+  {
+    "name": "Require(13) config/config.default.ts",
+    "start": 1641885609685,
+    "end": 1641885609685,
+    "duration": 0,
+    "pid": 6580,
+    "index": 17
+  },
+  {
+    "name": "Require(14) D:/myProj/station/node_modules/egg-security/config/config.local.js",
+    "start": 1641885609685,
+    "end": 1641885609686,
+    "duration": 1,
+    "pid": 6580,
+    "index": 18
+  },
+  {
+    "name": "Require(15) D:/myProj/station/node_modules/egg-view/config/config.local.js",
+    "start": 1641885609688,
+    "end": 1641885609690,
+    "duration": 2,
+    "pid": 6580,
+    "index": 19
+  },
+  {
+    "name": "Require(16) D:/myProj/station/node_modules/egg/config/config.local.js",
+    "start": 1641885609696,
+    "end": 1641885609696,
+    "duration": 0,
+    "pid": 6580,
+    "index": 20
+  },
+  {
+    "name": "Require(17) config/config.local.ts",
+    "start": 1641885609697,
+    "end": 1641885609697,
+    "duration": 0,
+    "pid": 6580,
+    "index": 21
+  },
+  {
+    "name": "Before Start in node_modules/@midwayjs/web/dist/framework/web.js:45:22",
+    "start": 1641885609704,
+    "end": 1641885609811,
+    "duration": 107,
+    "pid": 6580,
+    "index": 22
+  },
+  {
+    "name": "Before Start in node_modules/@midwayjs/web/dist/base.js:231:22",
+    "start": 1641885609711,
+    "end": 1641885610036,
+    "duration": 325,
+    "pid": 6580,
+    "index": 23
+  },
+  {
+    "name": "Load extend/agent.js",
+    "start": 1641885609815,
+    "end": 1641885609896,
+    "duration": 81,
+    "pid": 6580,
+    "index": 24
+  },
+  {
+    "name": "Require(18) D:/myProj/station/node_modules/egg-security/app/extend/agent.js",
+    "start": 1641885609817,
+    "end": 1641885609819,
+    "duration": 2,
+    "pid": 6580,
+    "index": 25
+  },
+  {
+    "name": "Require(19) D:/myProj/station/node_modules/egg-schedule/app/extend/agent.js",
+    "start": 1641885609820,
+    "end": 1641885609878,
+    "duration": 58,
+    "pid": 6580,
+    "index": 26
+  },
+  {
+    "name": "Require(20) D:/myProj/station/node_modules/egg-mock/app/extend/agent.js",
+    "start": 1641885609880,
+    "end": 1641885609891,
+    "duration": 11,
+    "pid": 6580,
+    "index": 27
+  },
+  {
+    "name": "Require(21) D:/myProj/station/node_modules/@midwayjs/web/app/extend/agent.js",
+    "start": 1641885609892,
+    "end": 1641885609892,
+    "duration": 0,
+    "pid": 6580,
+    "index": 28
+  },
+  {
+    "name": "Load extend/context.js",
+    "start": 1641885609896,
+    "end": 1641885610020,
+    "duration": 124,
+    "pid": 6580,
+    "index": 29
+  },
+  {
+    "name": "Require(22) D:/myProj/station/node_modules/egg-security/app/extend/context.js",
+    "start": 1641885609896,
+    "end": 1641885609909,
+    "duration": 13,
+    "pid": 6580,
+    "index": 30
+  },
+  {
+    "name": "Require(23) D:/myProj/station/node_modules/egg-jsonp/app/extend/context.js",
+    "start": 1641885609910,
+    "end": 1641885609914,
+    "duration": 4,
+    "pid": 6580,
+    "index": 31
+  },
+  {
+    "name": "Require(24) D:/myProj/station/node_modules/egg-i18n/app/extend/context.js",
+    "start": 1641885609915,
+    "end": 1641885609916,
+    "duration": 1,
+    "pid": 6580,
+    "index": 32
+  },
+  {
+    "name": "Require(25) D:/myProj/station/node_modules/egg-multipart/app/extend/context.js",
+    "start": 1641885609917,
+    "end": 1641885610004,
+    "duration": 87,
+    "pid": 6580,
+    "index": 33
+  },
+  {
+    "name": "Require(26) D:/myProj/station/node_modules/egg-view/app/extend/context.js",
+    "start": 1641885610005,
+    "end": 1641885610007,
+    "duration": 2,
+    "pid": 6580,
+    "index": 34
+  },
+  {
+    "name": "Require(27) D:/myProj/station/node_modules/egg/app/extend/context.js",
+    "start": 1641885610010,
+    "end": 1641885610014,
+    "duration": 4,
+    "pid": 6580,
+    "index": 35
+  },
+  {
+    "name": "Require(28) D:/myProj/station/node_modules/@midwayjs/web/app/extend/context.js",
+    "start": 1641885610015,
+    "end": 1641885610016,
+    "duration": 1,
+    "pid": 6580,
+    "index": 36
+  },
+  {
+    "name": "Load agent.js",
+    "start": 1641885610021,
+    "end": 1641885610033,
+    "duration": 12,
+    "pid": 6580,
+    "index": 37
+  },
+  {
+    "name": "Require(29) D:/myProj/station/node_modules/egg-security/agent.js",
+    "start": 1641885610021,
+    "end": 1641885610023,
+    "duration": 2,
+    "pid": 6580,
+    "index": 38
+  },
+  {
+    "name": "Require(30) D:/myProj/station/node_modules/egg-onerror/agent.js",
+    "start": 1641885610024,
+    "end": 1641885610025,
+    "duration": 1,
+    "pid": 6580,
+    "index": 39
+  },
+  {
+    "name": "Require(31) D:/myProj/station/node_modules/egg-schedule/agent.js",
+    "start": 1641885610026,
+    "end": 1641885610028,
+    "duration": 2,
+    "pid": 6580,
+    "index": 40
+  },
+  {
+    "name": "Require(32) D:/myProj/station/node_modules/midway-schedule/agent.js",
+    "start": 1641885610029,
+    "end": 1641885610030,
+    "duration": 1,
+    "pid": 6580,
+    "index": 41
+  },
+  {
+    "name": "Require(33) D:/myProj/station/node_modules/egg/agent.js",
+    "start": 1641885610031,
+    "end": 1641885610032,
+    "duration": 1,
+    "pid": 6580,
+    "index": 42
+  },
+  {
+    "name": "Require(34) D:/myProj/station/node_modules/@midwayjs/web/agent.js",
+    "start": 1641885610032,
+    "end": 1641885610033,
+    "duration": 1,
+    "pid": 6580,
+    "index": 43
+  },
+  {
+    "name": "Before Start in D:/myProj/station/node_modules/egg-schedule/agent.js:12:9",
+    "start": 1641885610034,
+    "end": 1641885610081,
+    "duration": 47,
+    "pid": 6580,
+    "index": 44
+  },
+  {
+    "name": "Did Load in D:/myProj/station/node_modules/@midwayjs/web/agent.js:didLoad",
+    "start": 1641885610036,
+    "end": 1641885610081,
+    "duration": 45,
+    "pid": 6580,
+    "index": 45
+  },
+  {
+    "name": "Will Ready in D:/myProj/station/node_modules/@midwayjs/web/agent.js:willReady",
+    "start": 1641885610083,
+    "end": 1641885610083,
+    "duration": 0,
+    "pid": 6580,
+    "index": 46
+  }
+]

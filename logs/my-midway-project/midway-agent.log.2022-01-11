@@ -1,0 +1,9 @@
+2022-01-11 14:31:16,154 INFO 7672 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 14:31:16,158 INFO 7672 [egg:core] dump config after load, 138ms
+2022-01-11 14:31:16,539 INFO 7672 [egg:core] dump config after ready, 22ms
+2022-01-11 14:43:22,672 INFO 5008 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 14:43:22,675 INFO 5008 [egg:core] dump config after load, 56ms
+2022-01-11 14:43:22,921 INFO 5008 [egg:core] dump config after ready, 15ms
+2022-01-11 15:20:09,803 INFO 6580 [egg:logger] init all loggers with options: {"dir":"D:\\myProj\\station\\logs\\my-midway-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-01-11 15:20:09,807 INFO 6580 [egg:core] dump config after load, 96ms
+2022-01-11 15:20:10,101 INFO 6580 [egg:core] dump config after ready, 17ms

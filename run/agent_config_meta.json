@@ -1,0 +1,291 @@
+{
+  "keys": "D:\\myProj\\station\\src\\config\\config.default.ts",
+  "middleware": "D:\\myProj\\station\\src\\config\\config.default.ts",
+  "midwayFeature": {
+    "replaceEggLogger": "D:\\myProj\\station\\src\\config\\config.default.ts"
+  },
+  "security": {
+    "csrf": "D:\\myProj\\station\\src\\config\\config.local.ts",
+    "domainWhiteList": "D:\\myProj\\station\\src\\config\\config.default.ts",
+    "protocolWhiteList": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\myProj\\station\\src\\config\\config.default.ts",
+    "allowMethods": "D:\\myProj\\station\\src\\config\\config.default.ts"
+  },
+  "mongoose": {
+    "client": {
+      "uri": "D:\\myProj\\station\\src\\config\\config.default.ts",
+      "options": {
+        "useNewUrlParser": "D:\\myProj\\station\\src\\config\\config.default.ts",
+        "useUnifiedTopology": "D:\\myProj\\station\\src\\config\\config.default.ts",
+        "useFindAndModify": "D:\\myProj\\station\\src\\config\\config.default.ts"
+      }
+    }
+  },
+  "session": {
+    "maxAge": "D:\\myProj\\station\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\myProj\\station\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\myProj\\station\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\myProj\\station\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\myProj\\station\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\myProj\\station\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\myProj\\station\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\myProj\\station\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\myProj\\station\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\myProj\\station\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\myProj\\station\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\myProj\\station\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\myProj\\station\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\myProj\\station\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\myProj\\station\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\myProj\\station\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\myProj\\station\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\myProj\\station\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\myProj\\station\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\myProj\\station\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\myProj\\station\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\myProj\\station\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "root": "D:\\myProj\\station\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\myProj\\station\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\myProj\\station\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\myProj\\station\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\myProj\\station\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "@midwayjs/bootstrap": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/core": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/decorator": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/mongoose": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/typegoose": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/web": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@typegoose/typegoose": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "mongoose": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "@midwayjs/cli": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/egg-ts-helper": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/luckyeye": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@midwayjs/mock": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@types/jest": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "@types/node": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "mwts": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "jest": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "ts-jest": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "start_build": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "lint:fix": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "build": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "check": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "midway-bin-clean": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "midway-luckyeye": {
+      "packages": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js",
+    "coreLogName": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js",
+    "agentLogName": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js",
+    "errorLogName": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\myProj\\station\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\myProj\\station\\node_modules\\egg\\config\\config.default.js",
+  "pluginOverwrite": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js",
+  "alinode": {
+    "logdir": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js",
+    "error_log": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js",
+    "packages": "D:\\myProj\\station\\node_modules\\@midwayjs\\web\\config\\config.default.js"
+  }
+}
